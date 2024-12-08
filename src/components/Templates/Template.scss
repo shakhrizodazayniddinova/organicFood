@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #09A66D;
+    --primary-dark-color: #078859;
+    --secondary-color: #F3FBF8;
+    --secondary-dark-color: #cfd6d4;
+}
+
+.templateContainer{
+    width: 100%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    .primaryArrowBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background-color: var(--primary-color);
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        color: white;
+        transition: 0.3s;
+
+        &:hover{
+            background-color: var(--primary-dark-color);
+        }
+        &:active{
+            transition: 0.3s;
+            transform: scale(0.9);
+        }
+    }
+}

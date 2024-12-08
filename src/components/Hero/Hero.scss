@@ -1,0 +1,103 @@
+.heroContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 92px 100px 50px 120px;
+    background-color: var(--secondary-color);
+
+    .leavesImg{
+        width: auto;
+        position: absolute;
+        top: -40px;
+        left: -1px;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .titleBox{
+        z-index: 100;
+        
+        .titleContainer{
+            align-items: center;
+
+            .description{
+                text-align: center;
+            }
+        }
+    }
+
+    .orderBtnBox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 40px;
+
+        .orderText{
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+
+    .vegetablesInformBox{
+        width: 100%;
+        display: flex;
+        align-items: end;
+        justify-content: space-around;
+        gap: 100px;
+
+        .vegetablesImg{
+            object-fit: cover;
+        }
+
+        .informBox{
+            width: 240px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+
+            .informChildBox{
+                width: 100%;
+                height: 116px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 24px;
+                background-color: white;
+
+                .iconBox{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 56px;
+                    height: 56px;
+                    background-color: var(--secondary-color);
+                    border-radius: 50%;
+                    font-size: 32px;
+                    color: var(--primary-color);
+                }
+                .statisBox{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 4px;
+
+                    .statis{
+                        margin: 0;
+                        font-size: 45px;
+                        font-weight: 500;
+                    }
+                    .statisName{
+                        margin: 0;
+                    }
+                }
+            }
+
+        }
+    }
+}

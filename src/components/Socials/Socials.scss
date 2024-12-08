@@ -1,0 +1,50 @@
+.socialsContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 0px;
+
+    .phoneImg{
+        width: 270px;
+        height: 496px;
+        object-fit: cover;
+    }
+
+    .titlesContainer{
+        width: 662px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        .downBtnTitleBox{
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+    
+            .downloadBtn{
+                width: 170px;
+                height: 40px;
+                background-color: var(--secondary-color);
+                border-radius: 30px;
+                border: none;
+                font-size: 18px;
+            }
+        }
+        .socialBox{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+
+            .socialImg{
+                width: 104px;
+                height: 30px;
+                object-fit: cover;
+                cursor: pointer;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,82 @@
+.sayingContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 96px 0px;
+
+    .titlesContainer{
+
+        .sayerName{
+            font-weight: 500;
+            font-size: 30px;
+            margin: 40px 0px 0px 0px;
+        }
+
+        .starArrowBox{
+            width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .arrowsBtnsBox{
+                display: flex;
+                align-items: center;    
+                gap: 26px;
+
+                .leftArrowBtn{
+                    width: 64px;
+                    height: 64px;
+                    text-align: center;
+                    background-color: transparent;
+                    border-radius: 50%;
+                    border: 1px solid #CCCCCC;
+                    color: #CCCCCC;
+                    font-size: 30px;
+                    transition: 0.3s;
+
+                    &:hover{
+                        background-color: #e5e0e0d2;
+                    }
+                    &:active{
+                        transition: 0.3s;
+                        transform: scale(0.9);
+                    }
+                }
+            }
+        }
+    }
+
+    .menUsersContainer{
+        width: 500px;
+        height: 500px;
+        position: relative;
+
+        .usersImgBox{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            position: absolute;
+            left: 0;
+            bottom: 10px;
+            width: 180px;
+            height: 60px;
+            padding: 11px 21px;
+            border-radius: 12px;
+            background-color: white;
+            box-shadow: -15px 15px 25px 0px #00603C0A;
+
+            .usersImg{
+                width: 163px;
+                height: 32px;
+                object-fit: cover;
+            }
+            .starImg{
+                width: 99px;
+                height: 15px;
+            }
+        }
+    }
+}
