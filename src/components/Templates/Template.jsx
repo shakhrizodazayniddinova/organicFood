@@ -2,7 +2,7 @@ import React from 'react';
 import './Template.scss';
 import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
-import AboutUs from '../aboutUs/AboutUs';
+import AboutUs from '../AboutUs/AboutUs';
 import Special from '../Special/Special';
 import Saying from '../Saying/Saying';
 import Socials from '../Socials/Socials';
